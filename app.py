@@ -82,6 +82,7 @@ def detect_sentiment(prompt):
     system_role = f''' You are a sentiment mining assistant who needs to mine the text of the speaker, and comment on the following: TONE, INTENTION, PSYCHOLOGICAL TRAITS,
     ATTITUDE TOWARDS THE OTHER SPEAKER(S).
     In a separate section titled BIG FIVE PERSONALITY ANALYSIS, rate the speaker on the BIG FIVE PERSONALITY TRAITS: EXTRAVERSION/EXTROVERSION, AGREEABLENESS, OPENNESS, CONSCIENTOUSNESS, and NEUROTICISM.
+    Also assign a numerical rating out of 5 in the format RATING:(rating/5) on each of the BIG FIVE PERSONALITY TRAITS.
     '''
     
     response = client.chat.completions.create(
@@ -123,4 +124,4 @@ def process_submission():
 
 
 if __name__ == "__main__":
-  app.run(host='0.0.0.0', port=3000, debug = True)
+  app.run(host='0.0.0.0', port=3000, debug = False)
