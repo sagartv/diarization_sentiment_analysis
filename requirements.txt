@@ -2,7 +2,6 @@ flask
 gunicorn
 openai
 deepgram-sdk
-json
 os
 ast
 
