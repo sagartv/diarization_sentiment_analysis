@@ -3,5 +3,4 @@ flask
 gunicorn
 openai
 deepgram-sdk
-ast
 
