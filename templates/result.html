@@ -1,0 +1,20 @@
+<html>
+    <head>
+        Result Page
+    </head>
+    <style>
+        div {
+    white-space: pre-wrap;
+}
+
+    </style>
+    <body>
+        <div>
+        <ul>
+            {% for element in data %}
+              <li>{{element}}</li>
+            {% endfor %}  
+            </ul>
+        </div>
+    </body>
+</html>
