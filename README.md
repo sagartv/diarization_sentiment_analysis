@@ -5,7 +5,7 @@
 4) use python3 app.py to run the app.py file and open the browser on port 3000
 5) Attach an audio file on the landing page and click "Mine Sentiment"
 6) The app will first diarize the audio file, the transcript of it is split and each speaker's text is individually fed into OpenAI's GPT 3.5 for sentiment analysis.
-7) You will then get a personality analysis of each speaker through their speech, along with a Big Five Personality Traits analysis.
+7) You will then get a personality analysis of each speaker through their speech, along with a Big Five Personality Traits analysis and an accompanying score.
 
 ## Access on Render:
 Link: https://diarization-sentiment-analysis.onrender.com/
