@@ -6,6 +6,9 @@
 5) The app will first diarize the audio file, the transcript of it is split and each speaker's text is individually fed into OpenAI's GPT 3.5 for sentiment analysis.
 6) You will then get a personality analysis of each speaker through their speech, along with a Big Five Personality Traits analysis.
 
+## Access on Render:
+Link: https://diarization-sentiment-analysis.onrender.com/
+
 ## Description:
 This was an interesting app to build, and I'm glad I got to work with DeepGram's API. The main challenge was setting up DeepGram and OpenAI's api and data structures to line up with each other.
 As of this version, the audio file is first transcribed and diarized by DeepGram's API. This transcript is then split up by speaker, and each speaker's speech is individually analyzed by OpenAI's GPT 3.5.
