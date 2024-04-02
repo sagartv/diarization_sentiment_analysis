@@ -12,6 +12,9 @@ Link: https://diarization-sentiment-analysis.onrender.com/
 
 ## Description:
 This was an interesting app to build, and I'm glad I got to work with DeepGram's API. The main challenge was setting up DeepGram and OpenAI's api and data structures to line up with each other.
+
 As of this version, the audio file is first transcribed and diarized by DeepGram's API. This transcript is then split up by speaker, and each speaker's speech is individually analyzed by OpenAI's GPT 3.5.
-The output contains general analysis of the speaker's tone, psychology and intent, as well as a Big Five Personality
+
+The output contains general analysis of the speaker's tone, psychology and intent, as well as a Big Five Personality analysis, and scores.
+
 To further improve this, I would like to expose GPT to both speakers conversations to give it more context, as well as update to GPT 4. I would also like to be more creative and analytical with the personality analysis.
